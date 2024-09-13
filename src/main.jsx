@@ -9,7 +9,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Page3 from "./Page3.jsx";
 import No from "./No.jsx";
 import Lastpage from "./Lastpage.jsx";
-import Surprice from "./surprice.jsx";
+import Surprice from "./Surprice.jsx";
 
 const router = createBrowserRouter([
   {

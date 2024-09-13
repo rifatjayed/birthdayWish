@@ -3,16 +3,6 @@ import { Link } from "react-router-dom";
 
 const BirthdaySurprise = () => {
   return (
-    // <div>
-    //   <h1 className="text-violet-600 text-2xl	font-bold mb-2">
-    //     Hey Priyotoma!!!
-    //   </h1>
-    //   <Link to="/surprice">
-    //     <button className="bg-violet-600	px-3 py-2 text-white	font-semibold	text-lg	">
-    //       Click Me
-    //     </button>
-    //   </Link>
-    // </div>
     <div className="flex flex-col items-center justify-center h-screen px-4">
       <h1 className="text-violet-600 text-2xl md:text-4xl font-bold mb-4 text-center">
         Hey Priyotoma!!! 💖🎉

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Confetti from "react-confetti";
 import { motion } from "framer-motion";
+import img from "./assets/imggggg.jpg";
 
 const Lastpage = () => {
   const [isRevealed, setIsRevealed] = useState(false);
@@ -46,6 +47,9 @@ const Lastpage = () => {
               Take love
               <p className="mt-2">&#128151;</p>
             </h2>
+            <div className="w-52	h-52 ">
+              <img className="	items-center justify-center" src={img} alt="" />
+            </div>
           </motion.div>
         )}
       </div>

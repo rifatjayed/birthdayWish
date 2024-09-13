@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
+
 import "./index.css";
 import Home from "./Home.jsx";
 import BirthdaySurprise from "./BirthdaySurprise.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Surprice from "./surprice.jsx";
+// import Surprice from "./surprice.jsx";
 import Page3 from "./Page3.jsx";
 import No from "./No.jsx";
 import Lastpage from "./Lastpage.jsx";
+import Surprice from "./surprice.jsx";
 
 const router = createBrowserRouter([
   {

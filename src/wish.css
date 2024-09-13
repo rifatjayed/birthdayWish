@@ -1,0 +1,203 @@
+.balloon-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.balloon {
+  position: absolute;
+  bottom: -150px;
+  width: 40px;
+  height: 60px;
+  background-color: red;
+  border-radius: 50%;
+  opacity: 0.7;
+  animation: float 6s ease-in infinite;
+}
+
+.balloon::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 2px;
+  height: 50px;
+  background: #aaa;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(-1200px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* Customize each balloon with different colors and sizes */
+/* .balloon-1 { left: 10%; background-color: #FF6F61; animation-delay: 0s; }
+  .balloon-2 { left: 20%; background-color: #6B5B95; animation-delay: 1s; }
+  .balloon-3 { left: 30%; background-color: #88B04B; animation-delay: 2s; }
+  .balloon-4 { left: 40%; background-color: #F7CAC9; animation-delay: 3s; }
+  .balloon-5 { left: 50%; background-color: #92A8D1; animation-delay: 4s; }
+  .balloon-6 { left: 60%; background-color: #955251; animation-delay: 5s; }
+  .balloon-7 { left: 70%; background-color: #B565A7; animation-delay: 6s; }
+  .balloon-8 { left: 80%; background-color: #009B77; animation-delay: 7s; }
+  .balloon-9 { left: 90%; background-color: #DD4124; animation-delay: 8s; }
+  .balloon-10 { left: 95%; background-color: #D65076; animation-delay: 9s; }
+   */
+
+.balloon-1 {
+  left: 5%;
+  background-color: #ff6f61;
+  animation-delay: 0s;
+}
+.balloon-2 {
+  left: 10%;
+  background-color: #6b5b95;
+  animation-delay: 0.5s;
+}
+.balloon-3 {
+  left: 15%;
+  background-color: #88b04b;
+  animation-delay: 1s;
+}
+.balloon-4 {
+  left: 20%;
+  background-color: #f7cac9;
+  animation-delay: 1.5s;
+}
+.balloon-5 {
+  left: 25%;
+  background-color: #92a8d1;
+  animation-delay: 2s;
+}
+.balloon-6 {
+  left: 30%;
+  background-color: #955251;
+  animation-delay: 2.5s;
+}
+.balloon-7 {
+  left: 35%;
+  background-color: #b565a7;
+  animation-delay: 3s;
+}
+.balloon-8 {
+  left: 40%;
+  background-color: #009b77;
+  animation-delay: 3.5s;
+}
+.balloon-9 {
+  left: 45%;
+  background-color: #dd4124;
+  animation-delay: 4s;
+}
+.balloon-10 {
+  left: 50%;
+  background-color: #d65076;
+  animation-delay: 4.5s;
+}
+.balloon-11 {
+  left: 55%;
+  background-color: #ff6f61;
+  animation-delay: 5s;
+}
+.balloon-12 {
+  left: 60%;
+  background-color: #6b5b95;
+  animation-delay: 5.5s;
+}
+.balloon-13 {
+  left: 65%;
+  background-color: #88b04b;
+  animation-delay: 6s;
+}
+.balloon-14 {
+  left: 70%;
+  background-color: #f7cac9;
+  animation-delay: 6.5s;
+}
+.balloon-15 {
+  left: 75%;
+  background-color: #92a8d1;
+  animation-delay: 7s;
+}
+.balloon-16 {
+  left: 80%;
+  background-color: #955251;
+  animation-delay: 7.5s;
+}
+.balloon-17 {
+  left: 85%;
+  background-color: #b565a7;
+  animation-delay: 8s;
+}
+.balloon-18 {
+  left: 90%;
+  background-color: #009b77;
+  animation-delay: 8.5s;
+}
+.balloon-19 {
+  left: 95%;
+  background-color: #dd4124;
+  animation-delay: 9s;
+}
+.balloon-20 {
+  left: 2%;
+  background-color: #d65076;
+  animation-delay: 9.5s;
+}
+.balloon-21 {
+  left: 8%;
+  background-color: #ff6f61;
+  animation-delay: 10s;
+}
+.balloon-22 {
+  left: 12%;
+  background-color: #6b5b95;
+  animation-delay: 10.5s;
+}
+.balloon-23 {
+  left: 18%;
+  background-color: #88b04b;
+  animation-delay: 11s;
+}
+.balloon-24 {
+  left: 23%;
+  background-color: #f7cac9;
+  animation-delay: 11.5s;
+}
+.balloon-25 {
+  left: 28%;
+  background-color: #92a8d1;
+  animation-delay: 12s;
+}
+.balloon-26 {
+  left: 33%;
+  background-color: #955251;
+  animation-delay: 12.5s;
+}
+.balloon-27 {
+  left: 38%;
+  background-color: #b565a7;
+  animation-delay: 13s;
+}
+.balloon-28 {
+  left: 43%;
+  background-color: #009b77;
+  animation-delay: 13.5s;
+}
+.balloon-29 {
+  left: 48%;
+  background-color: #dd4124;
+  animation-delay: 14s;
+}
+.balloon-30 {
+  left: 53%;
+  background-color: #d65076;
+  animation-delay: 14.5s;
+}

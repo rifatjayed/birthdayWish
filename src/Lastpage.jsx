@@ -47,8 +47,8 @@ const Lastpage = () => {
               Take love
               <p className="mt-2">&#128151;</p>
             </h2>
-            <div className="w-screen h-screen flex items-center justify-center">
-              <img className="w-52 h-3/6	" src={img} alt="" />
+            <div className="w-52	h-52 flex items-center justify-center">
+              <img className="" src={img} alt="" />
             </div>
           </motion.div>
         )}

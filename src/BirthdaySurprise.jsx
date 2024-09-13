@@ -9,7 +9,7 @@ const BirthdaySurprise = () => {
       </h1>
       <Link to="/surprice">
         <button className="bg-violet-600 px-5 py-3 text-white font-semibold text-lg md:text-xl rounded-md">
-          Click Me
+          Click
         </button>
       </Link>
     </div>

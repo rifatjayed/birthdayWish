@@ -42,6 +42,10 @@ const Lastpage = () => {
               me You are not addicted to me Instead, you are angry with me. You
               have no idea how special and dear you are to me.
             </p>
+            <h2 className="text-purple-700 text-2xl md:text-5xl font-bold mt-2">
+              Take love
+              <p className="mt-2">&#128151;</p>
+            </h2>
           </motion.div>
         )}
       </div>
